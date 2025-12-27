@@ -21,8 +21,8 @@ export const createHomeStyles = (colors: ColorScheme) => {
       color: colors.text,
     },
     header: {
-      paddingHorizontal: 24,
-      paddingVertical: 32,
+      paddingHorizontal: 16,
+      paddingVertical: 26,
       paddingBottom: 24,
     },
     titleContainer: {
@@ -80,7 +80,7 @@ export const createHomeStyles = (colors: ColorScheme) => {
       color: colors.success,
     },
     inputSection: {
-      paddingHorizontal: 24,
+      paddingHorizontal: 16,
       paddingBottom: 12,
     },
     inputWrapper: {
@@ -166,7 +166,8 @@ export const createHomeStyles = (colors: ColorScheme) => {
     },
     todoActions: {
       flexDirection: "row",
-      gap: 12,
+      justifyContent:"flex-end",
+      gap: 15,
     },
     actionButton: {
       width: 40,
